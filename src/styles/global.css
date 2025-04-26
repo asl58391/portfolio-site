@@ -1,44 +1,94 @@
-/* global.css */
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
-
 body {
   margin: 0;
-  padding: 0;
   font-family: 'Barlow', sans-serif;
-  background-color: #f7fafc;
-  color: #1a202c;
+  background-color: #f7f7f7;
+  color: #333;
 }
 
-main {
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
   padding: 2rem;
 }
 
-h1, h2, h3 {
-  font-weight: 700;
-  color: #2d3748;
+.about {
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
-p {
-  font-weight: 400;
-  line-height: 1.6;
+.about h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
-a {
-  color: #4f46e5;
-  text-decoration: none;
+.about p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
 }
 
-a:hover {
+.links a {
+  margin: 0 10px;
   text-decoration: underline;
+  font-weight: 500;
+  color: #4f46e5;
 }
 
-img {
+.links a:hover {
+  color: #3730a3;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: white;
+  padding: 1.5rem;
   border-radius: 12px;
-  border: 2px solid #e2e8f0; /* Light gray border */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
 }
 
-footer {
-  margin-top: 4rem;
-  font-size: 0.875rem;
-  color: #718096;
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.thumbnail {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #e2e8f0;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.project-text p {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.project-text a {
+  text-decoration: underline;
+  color: #4f46e5;
+}
+
+.project-text a:hover {
+  color: #3730a3;
+}
+
+.video-wrapper iframe {
+  border-radius: 12px;
 }
