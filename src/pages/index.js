@@ -53,6 +53,16 @@ export default function Home() {
           </div>
         </div>
 
+<div className="project">
+  <img src="/hm_ai_thumb.png" alt="H&M AI Store Hours Clustering" className="thumbnail" />
+  <div className="project-text">
+    <h2>H&M Store Hours AI Clustering</h2>
+    <p>Used machine learning to segment 250+ H&M stores by geography and open time. Built a Power BI dashboard showing city-level operational patterns, highlighting opportunities for scheduling optimization.</p>
+    <a href="https://app.powerbi.com/groups/a82b9a1f-8d4e-4db8-a6f6-2cb0647b370d/reports/845e4385-55ba-4649-bfdf-a4caea876e5f/a3179eed30140618a50a?experience=power-bi" target="_blank" rel="noopener noreferrer">View Project</a>
+  </div>
+</div>
+
+
         <div className="project">
           <div className="video-wrapper">
             <iframe
