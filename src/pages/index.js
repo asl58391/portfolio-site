@@ -7,13 +7,15 @@ export default function Home() {
       <section className="about">
         <h1>Anthony Lopez</h1>
         <p>
-          I’m a senior at UGA double majoring in MIS and Marketing, passionate about turning data into stories that drive action. Whether it's building databases, visualizing trends in Tableau, or writing screenplays, I combine structured thinking with creative insight to solve real-world problems. I believe the best ideas come from both analysis and imagination — and I’m always looking for ways to bridge the two.
+          I’m a senior at UGA double majoring in MIS and Marketing, passionate about turning data into stories that drive action. Whether it's building databases, visualizing trends in Tableau, or writing screenplays, I combine structured thinking with creative insight to solve real-world problems. I believe the best ideas come from both analysis and imagination, and I’m always looking for ways to bridge the two.
         </p>
-        <div className="links">
-          <a href="/AnthonyLopez_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-          <a href="mailto:anthonyl9479@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
-          <a href="https://www.linkedin.com/in/anthony-lopez-88a196254/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
+<div className="links">
+  <a href="/Marketing_Resume.pdf" target="_blank" rel="noopener noreferrer">Marketing Resume</a>
+  <a href="/MIS_Resume.pdf" target="_blank" rel="noopener noreferrer">MIS Resume</a>
+  <a href="mailto:anthonyl9479@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
+  <a href="https://www.linkedin.com/in/anthony-s-lopez/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</div>
+
       </section>
 
       <section className="projects">
@@ -84,3 +86,4 @@ export default function Home() {
     </main>
   );
 }
+

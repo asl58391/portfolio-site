@@ -24,18 +24,22 @@ function Home() {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
     className: "about"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Anthony Lopez"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I\u2019m a senior at UGA double majoring in MIS and Marketing, passionate about turning data into stories that drive action. Whether it's building databases, visualizing trends in Tableau, or writing screenplays, I combine structured thinking with creative insight to solve real-world problems. I believe the best ideas come from both analysis and imagination \u2014 and I\u2019m always looking for ways to bridge the two."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Anthony Lopez"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I\u2019m a senior at UGA double majoring in MIS and Marketing, passionate about turning data into stories that drive action. Whether it's building databases, visualizing trends in Tableau, or writing screenplays, I combine structured thinking with creative insight to solve real-world problems. I believe the best ideas come from both analysis and imagination, and I\u2019m always looking for ways to bridge the two."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "links"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/AnthonyLopez_Resume.pdf",
+    href: "/Marketing_Resume.pdf",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, "Marketing Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "/MIS_Resume.pdf",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "MIS Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "mailto:anthonyl9479@gmail.com",
     target: "_blank",
     rel: "noopener noreferrer"
   }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://www.linkedin.com/in/anthony-lopez-88a196254/",
+    href: "https://www.linkedin.com/in/anthony-s-lopez/",
     target: "_blank",
     rel: "noopener noreferrer"
   }, "LinkedIn"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
